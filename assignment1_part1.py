@@ -31,3 +31,10 @@ def listDivide(number, divide=2):
 
 
     return (count)
+
+if __name__ == "__main__":
+    testList1 = listDivide([1,2,3,4,5])
+    testList2 = listDivide([30, 54, 63, 50, 54, 100], 10)
+
+    print(testList1)
+    print(testList2)
